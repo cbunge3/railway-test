@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ['python3']
+
+[phases.build]
+cmds = []  # No build step needed for a plain script
+
+[phases.run]
+cmd = "python hello.py"
